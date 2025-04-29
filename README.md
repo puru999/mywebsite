@@ -27,7 +27,7 @@ My-Website/ ├── index.html ← Main HTML ├── style.css ← Styles (v
 
 🌐 Live Demo
 Check it out on GitHub Pages:
-https://puru999.github.io/My-Website
+https://puru999.github.io/mywebsite/
 
 📚 Course Context
 The Web Technologies module (Semester III) covers:
