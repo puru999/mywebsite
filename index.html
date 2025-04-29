@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Purushottam Phuyal | Data Science & AI Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/x-icon" href="logo.ico"/>
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <nav role="navigation" aria-label="Main menu">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu-list">
+      ☰ <span class="sr-only">Menu</span>
+    </button>
+    <ul id="menu-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#syllabus">Syllabus</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="img-container">
+      <img loading="lazy" src="IMG_0334.jpg" alt="Purushottam Phuyal" />
+      <div class="hover-text">Aspiring Data Scientist</div>
+    </div>
+    <h1>Purushottam Phuyal</h1>
+    <p>Aspiring Data Scientist | Machine Learning Enthusiast | Data Visualization Enthusiast</p>
+    <button class="github-btn" onclick="window.open('https://github.com/puru999/IBM-Data-Science-Capstone','_blank')">
+      View My GitHub Portfolio
+    </button>
+  </header>
+
+  <main>
+    <section id="about" class="section"><h2>About Me</h2><p>I am an aspiring data scientist passionate about transforming raw data into meaningful insights. With expertise in Python, machine learning, and data visualization, I help organizations make data-driven decisions.</p></section>
+    <section id="skills" class="section"><h2>Skills</h2><ul><li><strong>Programming:</strong> Python, SQL</li><li><strong>Data Visualization:</strong> Tableau, Power BI, Matplotlib</li><li><strong>Machine Learning:</strong> Regression, Classification, Clustering</li><li><strong>Soft Skills:</strong> Communication, Leadership, Critical Thinking</li></ul></section>
+    <section id="education" class="section"><h2>Education</h2><ul><li><strong>MSc in Data Science:</strong> Chandigarh University, India</li><li><strong>Bachelor’s in Finance:</strong> Tribhuvan University, Nepal</li></ul></section>
+
+    <section id="syllabus" class="section">
+      <h2>Syllabus Overview</h2>
+      <p>Below is a snapshot of the four-semester course grid.</p>
+      <div class="course-grid">
+        <div class="grid-row">
+          <div class="grid-table"><h3>Semester I</h3><table><thead><tr><th>Subjects</th><th>Credits</th></tr></thead><tbody><tr><td>Python Programming</td><td>4</td></tr><tr><td>Applied Probability &amp; Statistics</td><td>4</td></tr><tr><td>Communication &amp; Soft Skills</td><td>3</td></tr><tr><td>SQL Programming</td><td>4</td></tr><tr><td>Advanced DBMS</td><td>3</td></tr><tr class="total-row" onclick="window.open('CU_MSDS_All_Semesters_Syllabus_33941.docx','_blank')"><td>Total</td><td>18</td></tr></tbody></table></div>
+          <div class="grid-table"><h3>Semester II</h3><table><thead><tr><th>Subjects</th><th>Credits</th></tr></thead><tbody><tr><td>Calculus &amp; Linear Algebra</td><td>4</td></tr><tr><td>Data Analysis &amp; Visualization</td><td>4</td></tr><tr><td>Machine Learning</td><td>4</td></tr><tr><td>Advanced Machine Learning</td><td>4</td></tr><tr><td>Deep Learning</td><td>4</td></tr><tr class="total-row" onclick="window.open('CU_MSDS_All_Semesters_Syllabus_33941.docx','_blank')"><td>Total</td><td>20</td></tr></tbody></table></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-table"><h3>Semester III</h3><table><thead><tr><th>Subjects</th><th>Credits</th></tr></thead><tbody><tr><td>Optimization</td><td>4</td></tr><tr><td>Java Programming</td><td>3</td></tr><tr><td>Data Structures &amp; Algorithms</td><td>5</td></tr><tr><td>Web Technologies</td><td>4</td></tr><tr><td>Cloud Native Development</td><td>4</td></tr><tr><td>Minor Project</td><td>2</td></tr><tr class="total-row" onclick="window.open('CU_MSDS_All_Semesters_Syllabus_33941.docx','_blank')"><td>Total</td><td>22</td></tr></tbody></table></div>
+          <div class="grid-table"><h3>Semester IV</h3><table><thead><tr><th>Subjects</th><th>Credits</th></tr></thead><tbody><tr><td>Natural Language Processing</td><td>4</td></tr><tr><td>Data Engineering</td><td>4</td></tr><tr><td>Data Mining &amp; Warehousing</td><td>4</td></tr><tr><td>Applied Business Analytics</td><td>4</td></tr><tr><td>Major Project</td><td>4</td></tr><tr class="total-row" onclick="window.open('CU_MSDS_All_Semesters_Syllabus_33941.docx','_blank')"><td>Total</td><td>20</td></tr><tr class="total-credit-row" onclick="window.open('CU_MSDS_All_Semesters_Syllabus_33941.docx','_blank')"><td>Total Credits</td><td>80</td></tr></tbody></table></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section"><h2>Contact</h2><ul><li><strong>Email:</strong> <a href="mailto:phuyalpuru@gmail.com">phuyalpuru@gmail.com</a></li><li><strong>GitHub:</strong> <a href="https://github.com/puru999" target="_blank">github.com/puru999</a></li><li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/puru1010" target="_blank">linkedin.com/in/puru1010</a></li></ul></section>
+  </main>
+  <section id="projects" class="section">
+    <h2>Recent Projects</h2>
+    <div id="repoList">Loading projects…</div>
+  </section>
+  <li><a href="#projects">Projects</a></li>
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name<span>*</span></label>
+        <input type="text" id="name" name="name" required />
+        <small class="error-msg"></small>
+      </div>
+      <div class="form-group">
+        <label for="email">Email<span>*</span></label>
+        <input type="email" id="email" name="email" required />
+        <small class="error-msg"></small>
+      </div>
+      <div class="form-group">
+        <label for="message">Message<span>*</span></label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <small class="error-msg"></small>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+      <p id="formSuccess" class="success-msg"></p>
+    </form>
+  </section>
+  
+  
+
+
+  <footer><p>&copy; 2025 Purushottam Phuyal. All Rights Reserved.</p></footer>
+</body>
+</html>
